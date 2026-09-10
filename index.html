@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anyan | System Engineer Portfolio</title>
+  <meta name="description" content="Portfolio System Engineer - Infrastructure, Cloud, Virtualization, Backup & Disaster Recovery" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">AN<span>.</span></a>
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">SYSTEM ENGINEER • INFRASTRUCTURE • CLOUD</p>
+        <h1>Building Reliable<br><span>IT Infrastructure.</span></h1>
+        <p class="hero-text">
+          Portfolio profesional untuk menampilkan pengalaman, teknologi,
+          sertifikasi, dan project infrastructure yang pernah dikerjakan.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">Explore Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+        <div class="stats">
+          <div><strong>5+</strong><span>Years Experience</span></div>
+          <div><strong>20+</strong><span>Projects & POC</span></div>
+          <div><strong>10+</strong><span>Technologies</span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal">
+          <div class="terminal-top"><span></span><span></span><span></span></div>
+          <p><b>root@portfolio:~#</b> whoami</p>
+          <p class="output">System Engineer</p>
+          <p><b>root@portfolio:~#</b> ./skills</p>
+          <p class="output">Cloud • Virtualization • Backup</p>
+          <p><b>root@portfolio:~#</b> status</p>
+          <p class="success">● Available for opportunities</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-label">01 — ABOUT ME</p>
+      <div class="about-grid">
+        <h2>Technology enthusiast focused on infrastructure & cloud.</h2>
+        <div>
+          <p>
+            Saya adalah seorang System Engineer yang berfokus pada infrastruktur,
+            virtualization, cloud, backup, disaster recovery, dan enterprise IT solutions.
+          </p>
+          <p>
+            Website ini dapat kamu gunakan untuk menampilkan project yang sudah selesai,
+            POC, teknologi yang dikuasai, dan pengalaman kerja.
+          </p>
+          <a href="#" class="text-link">Download CV →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <p class="section-label">02 — TECHNOLOGY STACK</p>
+      <h2>Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><span>☁</span><h3>Cloud & Platform</h3><p>OpenStack, VMware Cloud, Private Cloud, Linux</p></div>
+        <div class="skill-card"><span>◈</span><h3>Virtualization</h3><p>VMware, Sangfor HCI, Nutanix, Hyper-V, Proxmox</p></div>
+        <div class="skill-card"><span>▣</span><h3>Backup & DR</h3><p>Vinchin, Veeam, Replication, Disaster Recovery</p></div>
+        <div class="skill-card"><span>⌘</span><h3>Monitoring</h3><p>Grafana, Zabbix, ManageEngine, Infrastructure Monitoring</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head">
+        <div>
+          <p class="section-label">03 — SELECTED WORK</p>
+          <h2>Featured Projects</h2>
+        </div>
+        <button class="filter active" data-filter="all">All Projects</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <span class="tag">HYPERCONVERGED INFRASTRUCTURE</span>
+            <h3>Sangfor HCI Infrastructure</h3>
+            <p>Health check, resource monitoring, capacity analysis, dan rekomendasi infrastructure improvement.</p>
+            <div class="tech"><span>Sangfor HCI</span><span>Virtualization</span><span>Storage</span></div>
+            <button class="project-btn" data-project="sangfor">View Case Study →</button>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <span class="tag">PRIVATE CLOUD</span>
+          <h3>OpenStack & Backup Integration</h3>
+          <p>Implementation dan integration OpenStack environment dengan backup dan monitoring.</p>
+          <div class="tech"><span>OpenStack</span><span>Linux</span><span>Grafana</span></div>
+          <button class="project-btn" data-project="openstack">View Details →</button>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <span class="tag">BACKUP & RECOVERY</span>
+          <h3>VM Backup & Disaster Recovery</h3>
+          <p>Backup strategy, replication, restore testing, dan disaster recovery scenario.</p>
+          <div class="tech"><span>Vinchin</span><span>VMware</span><span>DR</span></div>
+          <button class="project-btn" data-project="backup">View Details →</button>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">04</div>
+          <span class="tag">ENDPOINT MANAGEMENT</span>
+          <h3>IT Operations & Endpoint Management</h3>
+          <p>Endpoint monitoring, remote management, automation, dan IT operations support.</p>
+          <div class="tech"><span>NinjaOne</span><span>Monitoring</span><span>Automation</span></div>
+          <button class="project-btn" data-project="endpoint">View Details →</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <p class="section-label">04 — EXPERIENCE</p>
+      <h2>Career Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item"><span>NOW</span><div><h3>System Engineer</h3><p>Infrastructure, Cloud, Virtualization & Enterprise Solutions</p></div></div>
+        <div class="timeline-item"><span>2020</span><div><h3>Support Team Lead</h3><p>Technical support, infrastructure operations dan team coordination</p></div></div>
+        <div class="timeline-item"><span>2018</span><div><h3>IT Support</h3><p>Enterprise IT infrastructure support dan operations</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="section-label">05 — CONTACT</p>
+      <div class="contact-box">
+        <div>
+          <h2>Let's build something reliable.</h2>
+          <p>Terbuka untuk diskusi teknologi, project, dan peluang profesional.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+          <a href="#">LinkedIn ↗</a>
+          <a href="#">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name. Built for the web.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <button class="close" id="closeModal">×</button>
+      <span class="tag" id="modalTag"></span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <h3>Scope</h3>
+      <ul id="modalScope"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
